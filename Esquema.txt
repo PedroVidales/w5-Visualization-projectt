@@ -1,0 +1,35 @@
+Tenemos un dataframe con estas columnas:
+
+1.Unnamed:0 es el índice, cambiar al nombre a id o índice
+
+2.Breed: cada una de las razas distintas que tenemos
+
+3.Country of Origin: pais del que proviene cada raza
+
+4.Fur Color: color de piel, no nos sirve para mucho (eliminar)
+
+5.Color of Eyes : color de ojos, no nos sirve para mucho (eliminar)
+
+6.Longevity (yrs): años que dura cada perro, viene así (8-10), a lo mejor conviene hacer una columna específica de años mínimo y años máximo para añadir una columna con el promedio de longetividad de la raza.
+
+7.Character Traits: datos con el tipo de carácter de la raza, podria hacer una clasificación común y tomar como columnas los valores del caracter generalizados por nosotros mismos como pueden ser: Tranquilo o nervioso, amigable o no, leal o no. Algo así ya que la mayoría de características las tienen todos y así podemos ver las de cada raza punto por punto.
+
+8.Common Health Problems: recoge datos con respecto a las enfermedades que son más comunes en cada raza debido a su genetica. Podriamos hacer algo precido a lo de la columna anterior, probablemente la displasia tenga que ver con el tamaño del perro (en las columnas siguientes), ls enfermedades en los ojos tendrán relación probablemente con el color de los ojos. (Es relacionable con la longetivity)
+
+9.Height_low_inches: es la altura mínima en pulgadas
+
+10.Height_high_inches: es la altura máxima en pulgadas 
+
+11.Weight_low_lbs: es el peso mínimo en libras
+
+12.Weight_high_lbs: es el peso máximo en libras 
+
+13.Reps_lower: número de repeticiones mínimas para aprender un comando de cada raza
+ 
+14.Reps_upper:número de repeticiones maximas para aprender un comando de cada raza
+
+15.Is_dangerous: Nos señala si la raza está considerado ppp o no
+ 
+16.Country: nos dice el país o países en los que la raza es la más demandada en dicho país o países.
+
+
